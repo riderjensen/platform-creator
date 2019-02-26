@@ -3,8 +3,11 @@
     height: 700px;
     position: fixed;
     background-size: cover;
+    background-position: center;
     color: #fff;
     border-top: 7px solid hsl(272, 11%, 48%);
+    display: block;
+    position: relative;
 }
 
 .Heads .Overlay {

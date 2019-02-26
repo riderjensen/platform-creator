@@ -1,0 +1,9 @@
+.Heads {
+    height: 60vh;
+    background-color: rebeccapurple;
+    display: block;
+}
+
+.Heads h1 {
+    color: red;
+}

@@ -12,13 +12,15 @@ export default class Home extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-xs-12 col-sm-6">
-							<Input inputType="text" inputSetters={{
-								placeholder: 'Name'
+							<Input inputSetters={{
+								placeholder: 'Name',
+								type: 'text'
 							}} />
 						</div>
 						<div className="col-xs-12 col-sm-6">
-							<Input inputType="text" inputSetters={{
-								placeholder: 'Name'
+							<Input inputSetters={{
+								placeholder: 'Name',
+								type: 'text'
 							}} />
 						</div>
 					</div>

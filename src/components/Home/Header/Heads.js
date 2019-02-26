@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './Heads.css';
 
 import handshake from '../../../assets/images/handshake.jpg';
+import Button from '../../UI/Button/Button';
 
 export default function Header() {
 	return (
@@ -13,6 +14,7 @@ export default function Header() {
 				<div className={classes.ContentBox}>
 					<h1>Platform Creator</h1>
 					<p>Create the perfect political campaign website in just 10 minutes.</p>
+					<Button click="#test">Click me!</Button>
 				</div>
 			</div>
 		</div >

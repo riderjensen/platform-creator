@@ -4,6 +4,7 @@
     position: fixed;
     background-size: cover;
     color: #fff;
+    border-top: 7px solid hsl(272, 11%, 48%);
 }
 
 .Heads .Overlay {
@@ -31,7 +32,6 @@
 }
 
 .Content .ContentBox p {
-    margin: 0;
     font-size: 28px;
     color: #fff;
 }

@@ -17,4 +17,7 @@
 .Button:hover {
     transform: translateY(-1px);
     box-shadow: 3px 3px 4px #000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
 }

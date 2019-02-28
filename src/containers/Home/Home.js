@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import MainCta from '../../components/Home/Header/Heads';
 import Input from '../../components/UI/Input/Input';
@@ -34,7 +34,8 @@ export default class Home extends Component {
 	}
 
 	continueHandler = () => {
-		console.log(this.state.inputs)
+		// push the state up to redux
+		this.props.history.push('/questions')
 	}
 
 	render() {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Question from '../../components/QuestionArea/Questions/Question';
+import Button from '../../components/UI/Button/Button';
 
 export default class Questions extends Component {
 
@@ -31,6 +32,10 @@ export default class Questions extends Component {
 		})
 	}
 
+	pushFinishSite = () => {
+		this.props.history.push('/site');
+	}
+
 	render() {
 		return (
 			<div className="container">
@@ -41,7 +46,7 @@ export default class Questions extends Component {
 							<Question key={this.state.inputs[key].name} onChange={this.onChangeHandler} inputSetters={this.state.inputs[key]}>Test</Question>
 						);
 					})}
-
+					<p><Button click="#" onClick={this.pushFinishSite}>Create Site</Button></p>
 				</div>
 			</div>
 
